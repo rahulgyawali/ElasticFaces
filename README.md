@@ -38,10 +38,14 @@ Cold‑start avoided via “stopped” pool; takes ≤ 5 s to scale back to�
 <h2>📂 Repo Layout</h2>
 <ul>
 <li>web-tier/</li>
-  server.py        # HTTP handler
-  controller.py    # scaling logic
+    <ul>
+        <li>server.py        # HTTP handler</li>
+        <li>controller.py    # scaling logic</li>
+   </ul>
 <li>app-tier/</li>
-  backend.py       # face recognition worker
+    <ul>
+        <li>backend.py       # face recognition worker</li>
+    </ul>
 </ul>
 
 
