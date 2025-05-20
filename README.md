@@ -35,4 +35,13 @@ Cold‑start avoided via “stopped” pool; takes ≤ 5 s to scale back to�
 <li>Autograder‑ready: passes 100‑request workload — ✓ 100 % correct, < 1.2 s avg latency. </li>
 </ul>
 
+<h2>📂 Repo Layout</h2>
+<ul>
+<li>web-tier/</li>
+  server.py        # HTTP handler
+  controller.py    # scaling logic
+<li>app-tier/</li>
+  backend.py       # face recognition worker
+</ul>
+
 
